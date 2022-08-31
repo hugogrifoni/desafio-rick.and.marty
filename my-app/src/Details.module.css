@@ -1,0 +1,81 @@
+.detailsPersonaContainer {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    padding: 8px
+}
+
+.detailsPersonaCard {
+    margin: 0;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1.5px solid firebrick;
+    /* border-radius: 100%; */
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 0 12px black;
+}
+
+.body {
+    display: flex;
+}
+
+.imagePersona {
+    display: block;
+    margin: 0;
+    width: 75%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* opacity: 0.4; */
+    /* position: absolute; */
+    box-shadow: 0 0 12px black;
+    object-fit: fill;
+}
+
+.paragPersona {
+    background-color: darkseagreen;
+    padding: 13px;
+    margin: 0;
+}
+
+.locPersona {
+    background-color: aquamarine;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: cornflowerblue;
+    padding: 6px;
+}
+
+.epsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ .epsList span {
+    margin: 5px;
+    width: 28px;
+    height: 24px;
+    border: 1px solid cornflowerblue;
+    background: #6495ed60;
+    padding-top: 4px;
+    border-radius: 14px;
+}
+
+.goHome {
+    font-size: small;
+    vertical-align: super;
+    border: 2px solid black;
+    background: #6495ed60;
+    border-style: double;
+    border-radius: 4px;
+}
